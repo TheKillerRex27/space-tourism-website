@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of Homepage](./src/assets/screenshots/Screenshot%20(54).png)
+![Screenshot of Homepage](Screenshot-1.png)
 
 ### Built with
 
