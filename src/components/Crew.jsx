@@ -1,5 +1,5 @@
 import React from "react";
-import './Crew.css'
+import '../stylesheets/Crew.css'
 
 function Crew() {
 

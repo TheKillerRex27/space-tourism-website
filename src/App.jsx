@@ -34,7 +34,7 @@ function App() {
       <Navbar activeLink={activeLink} setActiveLink={ setActiveLink } />
 
       {/* Conditionally render content based on the active link */}
-      {activeLink == 'Home' && <Home />}
+      {activeLink == 'Home' && <Home setActiveLink={ setActiveLink } />}
       {activeLink == 'Destination' && <Destination />}
       {activeLink == 'Crew' && <Crew />}
       {activeLink == 'Technology' && <Technology />}

@@ -1,8 +1,8 @@
 import React from "react";
 import explore from '../assets/explore.svg'
-import './Home.css'
+import '../stylesheets/Home.css'
 
-function Home() {
+function Home({ setActiveLink }) {
 
     return (
         <section className='home-page'>
@@ -18,7 +18,7 @@ function Home() {
                 </p>
             </div>
             <div className='img-section'>
-                <img className='home-img' src={explore} />
+                <img className='home-img' src={explore} onClick={() => setActiveLink('Destination')} />
             </div>
         </section>
     )

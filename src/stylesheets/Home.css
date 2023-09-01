@@ -35,12 +35,21 @@
 }
 
 .img-section {
-    padding: 11em 8em 0 10em;
+    margin: 8em 8em 0 8em;
 }
 
 .home-img {
     position: relative;
-    border-radius: 100%;
-    height: 13em;
-    width: 13em;
+    border: 0 solid #24262F;
+    border-radius: 50%;
+    height: 12em;
+    width: 12em;
+    margin: 3.5em;
+    cursor: pointer;
+    transition: margin 0.3s ease-in, border-width 0.3s ease-in;
+}
+
+.home-img:hover {
+    margin: 0;
+    border: 3.5em solid #24262F;
 }

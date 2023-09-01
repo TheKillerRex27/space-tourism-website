@@ -1,5 +1,5 @@
 import React from "react";
-import './Technology.css'
+import '../stylesheets/Technology.css'
 
 function Technology() {
 

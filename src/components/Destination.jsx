@@ -1,5 +1,5 @@
 import React from "react";
-import './Destination.css'
+import '../stylesheets/Destination.css'
 
 function Destination() {
 

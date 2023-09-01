@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import icon from '../assets/icon.svg'
-import './Navbar.css'
+import '../stylesheets/Navbar.css'
 
 function Navbar({ activeLink, setActiveLink }) {
 
