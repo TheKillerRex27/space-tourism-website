@@ -1,0 +1,93 @@
+.dest-page {
+    display: flex;
+}
+
+.dest-img {
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 0 9em 0;
+}
+
+.dest-img p {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.dest-img span {
+    color: #4F5158;
+    margin-right: 0.875em;
+}
+
+.dest-img img {
+    margin-top: 2em;
+    margin-left: 4em;
+    height: 21em;
+    width: 21em;
+}
+
+.dest-info {
+    color: white;
+    width: 24em;
+}
+
+.dest-links {
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-top: 6em;
+}
+
+.dest-links ul {
+    display: flex;
+    padding: 0;
+}
+
+.dest-links li {
+    list-style: none;
+    margin-right: 3em;
+}
+
+.dest-links a {
+    cursor: pointer;
+    letter-spacing: 2px;
+    padding-bottom: 0.8em;
+}
+
+.dest-links a:hover {
+    border-bottom: 3px solid white;
+}
+
+.dest-title {
+    margin: 0;
+    font-family: 'Bellefair', sans-serif;
+    font-size: 5.4em;
+}
+
+.dest-description {
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    margin-bottom: 2.5em;
+}
+
+.info-panel {
+    display: flex;
+}
+
+.info {
+    margin-right: 4.5em;
+}
+
+.info-title {
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.7em;
+    letter-spacing: 2px;
+}
+
+.info-details {
+    font-family: 'Bellefair', sans-serif;
+    font-size: 1.3em;
+    margin: 0;
+}

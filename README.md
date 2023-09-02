@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of Homepage](Screenshot-1.png)
+![Screenshot of Homepage](https://github.com/TheKillerRex27/space-tourism-website/blob/main/src/assets/screenshots/Screenshot-1.png)
 
 ### Built with
 
