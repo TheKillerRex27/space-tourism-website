@@ -35,7 +35,7 @@ function App() {
 
       {/* Conditionally render content based on the active link */}
       {activeLink == 'Home' && <Home setActiveLink={ setActiveLink } />}
-      {activeLink == 'Destination' && <Destination />}
+      {activeLink == 'Destination' && <Destination setActiveLink={ setActiveLink } />}
       {activeLink == 'Crew' && <Crew />}
       {activeLink == 'Technology' && <Technology />}
       

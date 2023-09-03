@@ -20,10 +20,15 @@
 }
 
 .dest-img img {
+    border-radius: 50%;
     margin-top: 2em;
     margin-left: 4em;
     height: 21em;
     width: 21em;
+}
+
+.dest-img img:hover {
+    cursor: pointer;
 }
 
 .dest-info {
@@ -54,7 +59,12 @@
 }
 
 .dest-links a:hover {
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid #8A8B90;
+}
+
+.active-dest-link {
+    border-bottom: 3px solid white !important;
+    color: white !important;
 }
 
 .dest-title {
