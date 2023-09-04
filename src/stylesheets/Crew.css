@@ -1,0 +1,79 @@
+.crew-page {
+    display: flex;
+}
+
+.crew-details {
+    margin: 0 9em 0;
+}
+
+.header {
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.header span {
+    color: #4F5158;
+    margin-right: 0.875em;
+}
+
+.crew-info {
+    margin-top: 6em;
+}
+
+.crew-title {
+    margin: 0;
+    color: #8F9095;
+    font-family: 'Bellefair', sans-serif;
+    font-size: 1.7em;
+}
+
+.crew-name {
+    margin: 0.2em 0;
+    color: white;
+    font-family: 'Bellefair', sans-serif;
+    font-size: 3em;
+}
+
+.crew-text {
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    line-height: 1.4em;
+}
+
+.crew-nav {
+    display: flex;
+    margin-top: 5em;
+}
+
+.crew-nav-button {
+    cursor: pointer;
+    background-color: #36373F;
+    border-radius: 50%;
+    height: 0.7em;
+    width: 0.7em;
+    margin-right: 1.3em;
+}
+
+.crew-nav-button:hover {
+    background-color: #85868B;
+}
+
+.active-button {
+    background-color: white !important;
+}
+
+.crew-img-section {
+    margin: 0;
+    margin-top: 3em;
+    margin-right: 7.5em;
+}
+
+.crew-img {
+    height: 30em;
+    width: 24em;
+}
