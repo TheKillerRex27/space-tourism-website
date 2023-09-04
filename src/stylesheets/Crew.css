@@ -34,11 +34,13 @@
     margin: 0.2em 0;
     color: white;
     font-family: 'Bellefair', sans-serif;
-    font-size: 3em;
+    font-size: 2.6em;
+    letter-spacing: 1px;
 }
 
 .crew-text {
     color: #D0D6F9;
+    height: 6em;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 1.2em;
     letter-spacing: 2px;
@@ -64,7 +66,12 @@
 }
 
 .active-button {
-    background-color: white !important;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    height: 0.7em;
+    width: 0.7em;
+    margin-right: 1.3em;
 }
 
 .crew-img-section {
