@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Header, HeadSpan } from "./Header";
 import destinations from '../data/destination.json';
 import '../stylesheets/Destination.css';
 
@@ -32,7 +33,7 @@ function Destination( { setActiveLink } ) {
     return (
         <section className="dest-page">
             <div className="dest-img">
-                <p><span>01</span> PICK YOUR DESTINATION</p>
+                <Header><HeadSpan>01</HeadSpan> PICK YOUR DESTINATION</Header>
                 <img src={currentDest.images.png} alt={currentDest.name} onClick={() => setActiveLink('Crew')} />
             </div>
             <div className="dest-info">

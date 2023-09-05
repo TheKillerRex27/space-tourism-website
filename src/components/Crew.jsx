@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Header, HeadSpan } from "./Header";
 import '../stylesheets/Crew.css'
 import crew from '../data/crew.json'
 
@@ -33,7 +34,7 @@ function Crew() {
     return (
         <section className="crew-page">
             <div className="crew-details">
-                <p className="header"><span>02</span> MEET YOUR CREW</p>
+                <Header><HeadSpan>02</HeadSpan> MEET YOUR CREW</Header>
                 <div className="crew-info">
                     <p className="crew-title">{currentCrew.role.toUpperCase()}</p>
                     <p className="crew-name">{currentCrew.name.toUpperCase()}</p>
