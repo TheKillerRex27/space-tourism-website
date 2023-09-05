@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Header, HeadSpan } from "./Header";
+import { Header, HeadSpan } from "./styled-components/Header";
 import destinations from '../data/destination.json';
 import '../stylesheets/Destination.css';
 

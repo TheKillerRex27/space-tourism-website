@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Header, HeadSpan } from "./Header";
+import { Header, HeadSpan } from "./styled-components/Header";
 import '../stylesheets/Crew.css'
 import crew from '../data/crew.json'
 

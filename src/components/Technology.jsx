@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, HeadSpan } from "./Header";
+import { Header, HeadSpan } from "./styled-components/Header";
 import '../stylesheets/Technology.css'
 import rocket from '../assets/technology/image-launch-vehicle-portrait.jpg'
 
