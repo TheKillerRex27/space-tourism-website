@@ -1,9 +1,10 @@
 /* Adjust the styles to make the content section fill the remaining space */
 .home-page {
     display: flex;
+    padding-top: 5em;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 6em); /* Subtract the height of the navbar */
+    height: 100%
 }
 
 .home-text {
@@ -52,4 +53,44 @@
 .home-img:hover {
     margin: 0;
     border: 3.5em solid #24262F;
+}
+
+@media only screen and (max-width: 1200px){
+    .home-page {
+        display: block;
+    }
+
+    .home-text {
+        padding: 4em 9em 0 9em;
+        text-align: center;
+    }
+
+    .text-1 {
+        margin-bottom: 1em;
+        font-size: 1.2em;
+        letter-spacing: 3.375px;
+    }
+
+    .text-2 {
+        font-size: 9.2em;
+    }
+
+    .text-3 {
+        font-size: 1.1em;
+    }
+
+    .img-section {
+        margin: 6em 13.5em;
+    }
+
+    .home-img {
+        height: 15em;
+        width: 15em;
+    }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
 }

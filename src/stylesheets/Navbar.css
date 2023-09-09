@@ -50,3 +50,32 @@
 .active-link {
   border-bottom: 3px solid white !important;
 }
+
+@media only screen and (max-width: 1200px){
+
+  .navbar {
+    margin-top: 0;
+    height: 4.5em;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 40%, rgba(255, 255, 255, 0.1) 0%);
+  }
+
+  .navbar img {
+    margin-right: 16.5em;
+  }
+
+  .navbar hr {
+    display: none;
+  }
+
+  .nav-links a {
+    margin-right: 1.5em;
+    padding-top: 2.1em;
+    padding-bottom: 2.1em;
+  }
+}
+@media only screen and (max-width: 600px){
+/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px){
+/*Small smartphones [325px -> 425px]*/
+}
