@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Header, HeadSpan } from "./styled-components/Header";
-import '../stylesheets/Technology.css'
+import '../styles/Technology.css'
 import tech from '../data/technology.json'
 
 function Technology() {

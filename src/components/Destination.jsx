@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Header, HeadSpan } from "./styled-components/Header";
 import destinations from '../data/destination.json';
-import '../stylesheets/Destination.css';
+import '../styles/Destination.css';
 
 function Destination( { setActiveLink } ) {
     const moon = destinations.destinations[0];

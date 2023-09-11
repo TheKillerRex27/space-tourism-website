@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import icon from '../assets/icon.svg'
-import '../stylesheets/Navbar.css'
+import Hamburger from 'hamburger-react'
+import '../styles/Navbar.css'
 
 function Navbar({ activeLink, setActiveLink }) {
 
@@ -17,6 +18,9 @@ function Navbar({ activeLink, setActiveLink }) {
         </span>
         <span>
           <hr />
+        </span>
+        <span className="menu-icon">
+          <Hamburger />
         </span>
         <span>
           <ul className='nav-links'>

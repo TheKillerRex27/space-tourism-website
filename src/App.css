@@ -14,9 +14,12 @@
   background-image: url('./assets/technology/background-technology-desktop.jpg');
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .home-background {
     background-image: url('./assets/home/background-home-tablet.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .destination-background {

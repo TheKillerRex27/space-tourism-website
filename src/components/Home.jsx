@@ -1,6 +1,6 @@
 import React from "react";
 import explore from '../assets/explore.svg'
-import '../stylesheets/Home.css'
+import '../styles/Home.css'
 
 function Home({ setActiveLink }) {
 

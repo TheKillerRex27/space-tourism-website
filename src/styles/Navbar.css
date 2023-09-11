@@ -21,6 +21,10 @@
   border-bottom: 1px solid;
   width: 29em;
 }
+
+.menu-icon {
+  display: none;
+}
   
 .nav-links {
   display: flex;
@@ -59,12 +63,13 @@
     background: linear-gradient(to right, rgba(0, 0, 0, 0) 40%, rgba(255, 255, 255, 0.1) 0%);
   }
 
-  .navbar img {
-    margin-right: 16.5em;
-  }
-
   .navbar hr {
     display: none;
+  }
+
+  .nav-links {
+    position: absolute;
+    right: 1.5em;
   }
 
   .nav-links a {
